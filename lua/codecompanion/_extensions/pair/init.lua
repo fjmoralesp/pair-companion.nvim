@@ -5,7 +5,7 @@ local pair_companion = require("pair-companion")
 ---@field exports? table
 local Pair = {}
 
----@param opts table
+---@param opts Pair.Opts
 ---@return nil
 function Pair.setup(opts)
 	pair_companion.setup(opts)
